@@ -1,0 +1,93 @@
+{
+  "layout": {
+    "square_size": 60,
+    "coordinate_area_size": 20,
+    "captured_area_height_scale": 1.2,
+    "move_history_width": 220,
+    "info_panel_height": 40,
+    "button_area_height": 50,
+    "new_game_button_width": 100,
+    "action_button_width": 80,
+    "button_height": 30,
+    "button_padding": 5,
+    "promotion_choice_scale": 0.8,
+    "lifted_piece_scale": 1.15
+  },
+  "evaluation_bar": {
+    "width": 20,
+    "padding_x": 10
+  },
+  "fonts": {
+    "custom_font_path": "fonts/",
+    "custom_font_filename": "Quaver.ttf",
+    "info_font_size": 28,
+    "move_history_font_size": 15,
+    "move_history_line_height": 17,
+    "button_font_size": 18,
+    "coord_font_size_scale": 0.9,
+    "game_over_font_size": 50
+  },
+  "assets": {
+    "image_path": "Images/",
+    "sound_path": "sounds/",
+    "spinner_spritesheet_filename": "Loading.png",
+    "illegal_move_sound": "illegal.wav",
+    "opening_book_path": "book/gm2001.bin"
+  },
+  "spinner": {
+    "frame_width": 15,
+    "frame_height": 18,
+    "number_of_frames": 16,
+    "animation_speed_ms": 80,
+    "display_scale": 1.5
+  },
+  "timing": {
+    "fps": 60,
+    "game_over_delay_ms": 500,
+    "min_ai_turn_duration_ms": 500,
+    "ai_vs_ai_move_delay_ms": 750
+  },
+  "ai": {
+    "opening_book_max_moves": 16,
+    "accept_draw_threshold": -100,
+    "difficulty": {
+      "easy": { "time_seconds": 1 },
+      "medium": { "time_seconds": 3 },
+      "hard": { "time_seconds": 5 }
+    }
+  },
+  "colors": {
+    "white_square": [238, 238, 210],
+    "green_square": [118, 150, 86],
+    "legal_move": [186, 202, 68, 180],
+    "capture_ring": [255, 0, 0, 220],
+    "selected_square": [80, 130, 180, 180],
+    "last_move": [125, 175, 95, 150],
+    "check": [230, 50, 50, 120],
+    "hint": [0, 150, 255, 120],
+    "white_text": [230, 230, 230],
+    "dark_bg_text": [200, 200, 200],
+    "info_panel_bg": [50, 50, 50],
+    "screen_bg": [20, 20, 20],
+    "promotion_bg": [60, 60, 70],
+    "promotion_border": [180, 180, 180],
+    "promotion_hover_bg": [90, 100, 120, 180],
+    "move_history_bg": [45, 45, 45],
+    "button_bg": [70, 70, 90],
+    "button_text": [210, 210, 240],
+    "button_border": [110, 110, 140],
+    "button_hover_bg": [90, 90, 120],
+    "button_pressed_bg": [50, 50, 70],
+    "settings_bg": [40, 40, 60],
+    "settings_text": [220, 220, 250],
+    "settings_panel_bg": [55, 55, 75],
+    "settings_panel_border": [120, 120, 150],
+    "settings_button": [70, 70, 100],
+    "settings_button_hover": [100, 100, 130],
+    "settings_button_selected_bg": [110, 110, 140],
+    "game_over_overlay": [0, 0, 0, 200],
+    "game_over_text": [255, 255, 255],
+    "captured_area_bg": [35, 35, 35],
+    "turn_indicator_highlight": [0, 100, 200, 50]
+  }
+}
